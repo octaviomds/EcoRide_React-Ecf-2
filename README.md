@@ -1,8 +1,9 @@
 DEPLOIEMENT AVEC VERCEL :
 
 
+![Image 20-10-2024 à 22 11](https://github.com/user-attachments/assets/41bb26b3-a946-44eb-84ad-aa161da89152)
 
-![Image 19-10-2024 à 05 06](https://github.com/user-attachments/assets/73424f57-1da1-4807-9a37-1591cd0c3aa8)
+
 
 
 lien:https://www.figma.com/@leomartin
