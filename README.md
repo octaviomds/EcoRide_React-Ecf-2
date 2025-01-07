@@ -59,6 +59,18 @@ Cliquez sur "Nouveau projet" et importez le référentiel GitHub que vous venez 
 Après l'importation, configurez tous les paramètres nécessaires 
 Cliquez sur « Déployer ».
 
+creer une base de donnéés D' UN PROJET :
+
+UNE BASE DE DONNÉES À VERCEL DANS NEON
+
+Ouvrez votre base de données / projet Neon dans la console Neon
+
+Pour ouvrir votre base de données / projet Neon dans la console Neon :
+
+Dans l'onglet Stockage du tableau de bord Vercel, sélectionnez votre base de données.
+Sur votre page de base de données, sélectionnez Ouvrir dans Neon Postgres.
+
+
 
 lien:https://www.figma.com/@leomartin
 
