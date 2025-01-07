@@ -59,7 +59,7 @@ Cliquez sur "Nouveau projet" et importez le référentiel GitHub que vous venez 
 Après l'importation, configurez tous les paramètres nécessaires 
 Cliquez sur « Déployer ».
 
-creer une base de donnéés D' UN PROJET :
+ une base de donnéés D'un projet  :
 
 UNE BASE DE DONNÉES À VERCEL DANS NEON
 
