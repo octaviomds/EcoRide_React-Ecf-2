@@ -105,7 +105,7 @@ Cliquez sur « Déployer ».
 
  modifier ou creer une base de donnéés D'un projet  :
 
-UNE BASE DE DONNÉES À VERCEL DANS NEON
+UNE BASE DE DONNÉES À VERCEL DANS NEON/MONGODB ATLAS:
 
 Ouvrez votre base de données / projet Neon dans la console Neon
 
