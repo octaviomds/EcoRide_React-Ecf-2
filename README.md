@@ -165,5 +165,10 @@ Déployez votre base de données sur le même fournisseur de cloud et la même r
 Pour choisir un fournisseur de cloud et une région, voir Fournisseurs de cloud et régions.
 Personnalisez votre cluster.
 Activer la distribution de données multi-cloud et multi-régions pour étendre la couverture mondiale, augmenter la tolérance aux pannes et répondre aux exigences de conformité des données.
+
+
+<img width="909" alt="Capture d’écran 2025-01-09 à 01 46 35" src="https://github.com/user-attachments/assets/4faa2b71-5108-41ef-9d1c-ad4802ca6977" />
+
+
 Pour personnaliser votre cluster,  Configurer la haute disponibilité et l'isolation de la charge de travail.
 
