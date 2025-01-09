@@ -177,9 +177,4 @@ BASE DE DONNÉE DE ÉCORIDE:
 <img width="1317" alt="Capture d’écran 2025-01-09 à 09 20 16" src="https://github.com/user-attachments/assets/c2ca91e6-2418-440c-a53b-b273a46847c6" />
 
 
-EXEMPLE BASE DE DONNÉE:
-
-
-<img width="1317" alt="Capture d’écran 2025-01-09 à 02 58 29" src="https://github.com/user-attachments/assets/d1181477-0571-4795-85e0-b8212fdc9566" />
-
 
