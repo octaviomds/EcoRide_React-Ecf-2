@@ -172,3 +172,9 @@ Activer la distribution de données multi-cloud et multi-régions pour étendre 
 
 Pour personnaliser votre cluster,  Configurer la haute disponibilité et l'isolation de la charge de travail.
 
+EXEMPLE BASE DE DONNÉE:
+
+
+<img width="1317" alt="Capture d’écran 2025-01-09 à 02 58 29" src="https://github.com/user-attachments/assets/d1181477-0571-4795-85e0-b8212fdc9566" />
+
+
