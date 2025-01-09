@@ -172,6 +172,11 @@ Activer la distribution de données multi-cloud et multi-régions pour étendre 
 
 Pour personnaliser votre cluster,  Configurer la haute disponibilité et l'isolation de la charge de travail.
 
+BASE DE DONNÉE DE ÉCORIDE:
+
+<img width="1317" alt="Capture d’écran 2025-01-09 à 09 20 16" src="https://github.com/user-attachments/assets/c2ca91e6-2418-440c-a53b-b273a46847c6" />
+
+
 EXEMPLE BASE DE DONNÉE:
 
 
