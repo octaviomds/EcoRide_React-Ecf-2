@@ -122,3 +122,48 @@ lien:https://www.figma.com/@leomartin
 
 
 ![Image 20-10-2024 à 22 37](https://github.com/user-attachments/assets/42923823-cb55-49ba-afaf-3ea9fb75f215)
+
+DEPLOIEMENT APPLICATION CONSOLE NEON ET MANGODB ATLAS :
+
+L'éditeur Neon SQL vous permet d'exécuter des requêtes sur vos bases de données Neon directement à partir de la console Neon. En outre, l'éditeur conserve un historique des requêtes, permet d'enregistrer les requêtes et fournit
+Expliquer
+Et
+Analyser
+Caractéristiques.
+
+Pour utiliser l'éditeur SQL :
+
+Accédez à la console Neon .
+Sélectionnez votre projet.
+Sélectionnez l'éditeur SQL.
+Sélectionnez une succursale et une base de données.
+Entrez une requête dans l'éditeur et cliquez sur Exécuter pour afficher les résultats.
+Actions prises en charge uniquement à partir du tableau de bord Vercel
+
+En tant qu'utilisateur de l'intégration native Neon Postgres, vous avez accès à toutes les fonctionnalités de Neon.
+
+Les modifications de configuration que vous pouvez apporter incluent :
+
+Modification du nom de la base de données (nom du projet en néon)
+Modification de la taille du calcul
+Modification de votre plan de niveau d'installation (votre plan Neon)
+Pour modifier votre configuration :
+
+Sur le tableau de bord Vercel, accédez à l'onglet Stockage.
+Sélectionnez Paramètres.
+Dans la section Mettre à jour la configuration, sélectionnez Modifier la configuration.
+Sélectionnez les configurations souhaitées et cliquez sur Enregistrer.
+Ajout de plus de bases de données
+
+CONSOLE MONGOGODB:
+
+Choisissez un type de cluster.
+utiliser un cluster gratuit, lancez une instance sans serveur ou définissez une configuration de cluster dédiée pour votre application.
+Pour choisir un type de déploiement, voir Types de déploiement de base de données.
+Choisissez un fournisseur de cloud et une région
+Déployez votre base de données sur le même fournisseur de cloud et la même région que vos applications pour réduire la latence et normaliser les contrôles de sécurité.
+Pour choisir un fournisseur de cloud et une région, voir Fournisseurs de cloud et régions.
+Personnalisez votre cluster.
+Activer la distribution de données multi-cloud et multi-régions pour étendre la couverture mondiale, augmenter la tolérance aux pannes et répondre aux exigences de conformité des données.
+Pour personnaliser votre cluster,  Configurer la haute disponibilité et l'isolation de la charge de travail.
+
