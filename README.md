@@ -69,42 +69,6 @@ Installez Express.js, un framework Node.js:
 
 Installer npm express
 
-creer un fichier index.js:
-const express = require('express');
-Const app = express();
-const PORT = 4000;
-
-app.get('/home', (req, res) => {
-res.status(200).json 
-}) ;
-
-App.listen(PORT, () => {
-  console.log(`Serveur fonctionnant sur http://localhost:${PORT}`) ;
-}) ;
-
-module.exports = application ;
-
-ajouter un fichier gitignore
-
-echo node_modules > .gitignore
-
-creer un fichier vercel:
-{
-"version" : 2,
-  "Construit" : [
-{
-"Src" : "index.js",
-      "utilisation" : "@vercel/node"
-}
-],
-"itinéraires" : [
-{
-"src" : "/(. *)",
-      "dest" : "index.js"
-}
-]
-}
-
 
 Connectez au compte Vercel et accédez à votre tableau de bord.
 Cliquez sur "Nouveau projet" et importez le référentiel GitHub créer.
