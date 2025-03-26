@@ -1,3 +1,4 @@
+![IMG_3107](https://github.com/user-attachments/assets/7cfeeff4-5aba-4d0e-8d22-f78d23494f3c)
 
 <img width="1514" alt="Capture d’écran 2025-02-08 à 00 26 10" src="https://github.com/user-attachments/assets/bb9ed687-d62e-4068-93c8-c89baf5276c7" />
 
