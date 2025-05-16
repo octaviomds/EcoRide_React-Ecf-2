@@ -196,26 +196,5 @@ BASE DE DONNÉE DE ÉCORIDE:
 
 
 
-LES LIENS ECORIDE POUR MOBILE (SITE ET APPLICATION) :
-
-
-[
-](https://ecoride-lollias-projects.vercel.app)
-
-
-
-[
-](https://ecorideangular.vercel.app)
-
-
-
-
-[
-](https://eco-ride-angular-standalone-3.vercel.app/in-app/chauffeur)
-
-
-
-
-
 
 
