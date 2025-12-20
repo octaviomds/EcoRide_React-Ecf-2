@@ -2,48 +2,6 @@
 
 
 
-
-
-https://github.com/user-attachments/assets/94ed76c6-87bd-4476-9feb-a1b1898da3ca
-
-
-
-
-
-
-<img width="2285" alt="Capture d’écran 2025-05-04 à 03 13 39 2" src="https://github.com/user-attachments/assets/6201a98a-7fda-4736-a0bb-2a1c98c799ee" />
-
-
-
-
-
-![Image 04-05-2025 à 03 17 2](https://github.com/user-attachments/assets/f8129d12-18f1-4f77-8303-3dde263a83bf)
-
-
-
-
-<img width="1514" alt="Capture d’écran 2025-02-08 à 00 26 10" src="https://github.com/user-attachments/assets/bb9ed687-d62e-4068-93c8-c89baf5276c7" />
-
-
-
-
-
-
-
-
-<img width="1514" alt="Capture d’écran 2025-02-08 à 00 25 19" src="https://github.com/user-attachments/assets/9dc322e9-6e8a-42da-975c-63a4b8105139" />
-
-
-
-
-
-
-
-![Image 20-01-2025 à 04 08](https://github.com/user-attachments/assets/ac913a58-67b7-48f3-970e-ec4b2d213d10)
-
-
-
-
 Partie Front :
 
 - React Native : framework  basé sur la librairie JavaScript React. Il permet le développement d'applications cross- plateforms et utilise les composants mobiles natifs.
@@ -54,8 +12,6 @@ Partie Front :
 - Knex.js : SQL builder qui permet de créer une base de données, de la modifier et d'écrire des requêtes avec une syntaxe objet.
 DEPLOIEMENT AVEC VERCEL :
 
-
-![Image 20-10-2024 à 22 11 2](https://github.com/user-attachments/assets/a4f349c8-3d2c-4290-8c76-f9c22e9e197a)
 
 CONFIGURER L'ENVIRONNEMENT DE TRAVAIL:
 
@@ -94,7 +50,7 @@ Installation d'un simulateur iOS dans Xcode
 Pour installer un simulateur, ouvrez Xcode > Paramètres... (ou Préférences...) et sélectionnez l'onglet Plateformes (ou Composants). Sélectionnez un simulateur avec la version correspondante d'iOS pour l'utiliser.
 
 
-utilisez Xcode version 14.0 ou supérieure pour installer un simulateur, ouvrez l'onglet Xcode > Paramètres > Plateformes, puis cliquez sur l'icône "+" et sélectionnez l'option iOS...
+utilisation de Xcode version 14.0 ou supérieure pour installer un simulateur, ouvrez l'onglet Xcode > Paramètres > Plateformes, puis cliquez sur l'icône "+" et sélectionnez l'option iOS...
 
 CacaoPods
 
@@ -136,10 +92,7 @@ Sur votre page de base de données, sélectionnez Ouvrir dans Neon Postgres.
 lien:https://www.figma.com/@leomartin
 
 
-![Image 20-10-2024 à 03 01 3](https://github.com/user-attachments/assets/9f3b4107-6d81-4963-a919-c73770619851)
 
-
-![Image 20-10-2024 à 22 37](https://github.com/user-attachments/assets/42923823-cb55-49ba-afaf-3ea9fb75f215)
 
 DEPLOIEMENT APPLICATION CONSOLE NEON ET MANGODB ATLAS :
 
@@ -183,16 +136,6 @@ Déployez votre base de données sur le même fournisseur de cloud et la même r
 Pour choisir un fournisseur de cloud et une région, voir Fournisseurs de cloud et régions.
 Personnalisez votre cluster.
 Activer la distribution de données multi-cloud et multi-régions pour étendre la couverture mondiale, augmenter la tolérance aux pannes et répondre aux exigences de conformité des données.
-
-
-<img width="909" alt="Capture d’écran 2025-01-09 à 01 46 35" src="https://github.com/user-attachments/assets/4faa2b71-5108-41ef-9d1c-ad4802ca6977" />
-
-
-Pour personnaliser votre cluster,  Configurer la haute disponibilité et l'isolation de la charge de travail.
-
-BASE DE DONNÉE DE ÉCORIDE:
-
-<img width="1317" alt="Capture d’écran 2025-01-09 à 09 20 16" src="https://github.com/user-attachments/assets/c2ca91e6-2418-440c-a53b-b273a46847c6" />
 
 
 
