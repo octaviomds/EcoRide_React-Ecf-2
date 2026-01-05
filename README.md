@@ -1,6 +1,7 @@
 
 
-
+la commande du projet:
+npm create vite@latest
 
 Partie Front :
 
