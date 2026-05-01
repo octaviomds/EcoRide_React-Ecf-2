@@ -1,144 +1,117 @@
+# Projet Covoiturage
 
+Application de covoiturage composee d'un frontend Angular, d'un frontend React et d'une base de donnees Supabase.
 
-la commande du projet:
-npm create vite@latest
+---
 
-Partie Front :
+## Prerequis
 
-- React Native : framework  basé sur la librairie JavaScript React. Il permet le développement d'applications cross- plateforms et utilise les composants mobiles natifs.
- Partie Back :
-- Node.js : un environnement bas niveau permettant l’exécution de code
- JavaScript côté serveur.  il permet de concevoir des applications en réseau performantes, telles qu’un serveur web ou une API.
-- Express.js : framework qui permet de construire des applications web basées sur Node.js, pratique pour le développement de serveur. Il permet une création d'API robuste de manière simple et rapide.
-- Knex.js : SQL builder qui permet de créer une base de données, de la modifier et d'écrire des requêtes avec une syntaxe objet.
-DEPLOIEMENT AVEC VERCEL :
+- Node.js >= 18
+- npm >= 9
+- Un compte Supabase
 
+---
 
-CONFIGURER L'ENVIRONNEMENT DE TRAVAIL:
+## Structure du projet
 
-Installation 
+```
+projet/
+├── angular-app/        # Frontend Angular
+├── react-app/          # Frontend React (Vite)
+└── supabase.ts         # Configuration base de donnees
+```
 
-utilisation de Node, Watchman, de l'interface de ligne de commande React Native, de Xcode et CocoaPods.
+---
 
-utiliser l' éditeur de texte pour développer l' application, il faut installer Xcode afin de configurer les outils nécessaires pour créer votre application React Native pour iOS.
+## Installation
 
-NODE ET WATCHMAN
+### Frontend Angular
 
-installer Node et Watchman en utilisant Homebrew. Exécutez les commandes suivantes dans un terminal après l'installation de Homebrew :
+```bash
+npm create vite@latest angular-app
+cd angular-app
+npm install
+```
 
-SHELL
+Lors de la creation avec Vite, selectionner le framework **Angular** lorsque demande.
 
-brew install node
-brew install watchman
+Lancer le serveur de developpement :
 
+```bash
+npm run dev
+```
 
-Watchman est un outil de Facebook pour surveiller les changements dans le système de fichiers. 
+### Frontend React
 
-XCODE
+```bash
+npm create vite@latest react-app
+cd react-app
+npm install
+```
 
-utiliser la dernière version de Xcode.
+Lors de la creation avec Vite, selectionner le framework **React** puis **TypeScript** lorsque demande.
 
- L'installation de Xcode installera également le simulateur iOS et tous les outils nécessaires pour créer l' application iOS.
+Lancer le serveur de developpement :
 
-Outils de ligne de commande
+```bash
+npm run dev
+```
 
- installation des outils de ligne de commande Xcode. Ouvrir Xcode, puis choisir Paramètres... (ou Préférences...) dans le menu Xcode. configuration dans le panneau Emplacements et installez les outils en sélectionnant la version la plus récente dans le menu déroulant Outils de ligne de commande.
+---
 
-Outils de ligne de commande Xcode
+## Base de donnees
 
-Installation d'un simulateur iOS dans Xcode
+Le projet utilise **Supabase** comme base de donnees.
 
-Pour installer un simulateur, ouvrez Xcode > Paramètres... (ou Préférences...) et sélectionnez l'onglet Plateformes (ou Composants). Sélectionnez un simulateur avec la version correspondante d'iOS pour l'utiliser.
+### Configuration
 
+Creer un projet sur [https://supabase.com](https://supabase.com), puis renseigner les variables dans le fichier `supabase.ts` a la racine :
 
-utilisation de Xcode version 14.0 ou supérieure pour installer un simulateur, ouvrez l'onglet Xcode > Paramètres > Plateformes, puis cliquez sur l'icône "+" et sélectionnez l'option iOS...
+```typescript
+import { createClient } from '@supabase/supabase-js'
 
-CacaoPods
+const supabaseUrl = 'VOTRE_URL_SUPABASE'
+const supabaseKey = 'VOTRE_CLE_ANON'
 
-CocoaPods est l'un des systèmes de gestion des dépendances disponibles pour iOS. CocoaPods  Ruby.  installer CocoaPods en utilisant la version de Ruby fournie avec la dernière version de macOS.
+export const supabase = createClient(supabaseUrl, supabaseKey)
+```
 
-AUTRE FACON DE DEPLOYER AVEC VERCEL
+Installer le client Supabase dans chaque application :
 
-Ouvrez votre terminal ou Git Bash.
-Exécutez les commandes suivantes pour créer un nouveau répertoire de projet et y naviguer :
+```bash
+npm install @supabase/supabase-js
+```
 
-mkdir vercel-app cd vercel-app
+---
 
-Initialisez le projet Node.js en exécutant :
+## Modules de l'application (React)
 
-npm init -y
+L'application React contient les modules suivants dans `src/app/in-app/` :
 
-Installez Express.js, un framework Node.js:
+- `acces` : gestion des acces et des droits
+- `chauffeur` : profil et gestion des chauffeurs
+- `contact` : formulaire et page de contact
+- `covoiturage` : creation et gestion des trajets
+- `dashboard` : tableau de bord principal
 
-Installer npm express
+---
 
+## Scripts disponibles
 
-Connectez au compte Vercel et accédez à votre tableau de bord.
-Cliquez sur "Nouveau projet" et importez le référentiel GitHub créer.
-Après l'importation, configuration tous les paramètres nécessaires 
-Cliquez sur « Déployer ».
+| Commande | Description |
+|---|---|
+| `npm run dev` | Lancer le serveur de developpement |
+| `npm run build` | Compiler pour la production |
+| `npm run preview` | Previsualiser le build de production |
 
- modifier ou creer une base de donnéés D'un projet  :
+---
 
-UNE BASE DE DONNÉES À VERCEL DANS NEON/MONGODB ATLAS:
+## Technologies utilisees
 
-Ouvrez votre base de données / projet Neon dans la console Neon
-
-Pour ouvrir votre base de données / projet Neon dans la console Neon :
-
-Dans l'onglet Stockage du tableau de bord Vercel, sélectionnez votre base de données.
-Sur votre page de base de données, sélectionnez Ouvrir dans Neon Postgres.
-
-
-lien:https://www.figma.com/@leomartin
-
-
-
-
-DEPLOIEMENT APPLICATION CONSOLE NEON ET MANGODB ATLAS :
-
-L'éditeur Neon SQL vous permet d'exécuter des requêtes sur vos bases de données Neon directement à partir de la console Neon. En outre, l'éditeur conserve un historique des requêtes, permet d'enregistrer les requêtes et fournit
-Expliquer
-Et
-Analyser
-Caractéristiques.
-
-Pour utiliser l'éditeur SQL :
-
-Accédez à la console Neon .
-Sélectionnez votre projet.
-Sélectionnez l'éditeur SQL.
-Sélectionnez une succursale et une base de données.
-Entrez une requête dans l'éditeur et cliquez sur Exécuter pour afficher les résultats.
-Actions prises en charge uniquement à partir du tableau de bord Vercel
-
-En tant qu'utilisateur de l'intégration native Neon Postgres, vous avez accès à toutes les fonctionnalités de Neon.
-
-Les modifications de configuration que vous pouvez apporter incluent :
-
-Modification du nom de la base de données (nom du projet en néon)
-Modification de la taille du calcul
-Modification de votre plan de niveau d'installation (votre plan Neon)
-Pour modifier votre configuration :
-
-Sur le tableau de bord Vercel, accédez à l'onglet Stockage.
-Sélectionnez Paramètres.
-Dans la section Mettre à jour la configuration, sélectionnez Modifier la configuration.
-Sélectionnez les configurations souhaitées et cliquez sur Enregistrer.
-Ajout de plus de bases de données
-
-CONSOLE MONGOGODB:
-
-Choisissez un type de cluster.
-utiliser un cluster gratuit, lancez une instance sans serveur ou définissez une configuration de cluster dédiée pour votre application.
-Pour choisir un type de déploiement, voir Types de déploiement de base de données.
-Choisissez un fournisseur de cloud et une région
-Déployez votre base de données sur le même fournisseur de cloud et la même région que vos applications pour réduire la latence et normaliser les contrôles de sécurité.
-Pour choisir un fournisseur de cloud et une région, voir Fournisseurs de cloud et régions.
-Personnalisez votre cluster.
-Activer la distribution de données multi-cloud et multi-régions pour étendre la couverture mondiale, augmenter la tolérance aux pannes et répondre aux exigences de conformité des données.
-
-
-
+- Vite
+- Angular
+- React avec TypeScript
+- Supabase (PostgreSQL)
+- Ignite UI (`ig-theme.css`, `ignite-ui-cli.json`)
 
 
